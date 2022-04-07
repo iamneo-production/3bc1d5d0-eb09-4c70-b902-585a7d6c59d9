@@ -1,0 +1,190 @@
+.header-h1{
+    color: rgb(207, 177, 121);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    /* border-style: solid; */
+    margin:auto;
+    /* border-radius: 15px; */
+    
+
+}
+
+.navbar{
+    background-color: rgb(246, 248, 255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+    width: auto;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+
+
+
+.navbar a{
+    color: rgb(20, 15, 15);
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    
+  
+}
+.navbar a:hover{
+    background-color: #6c8297;
+    border-style: hidden;
+    border-radius: 5px;
+    color: rgb(255, 254, 253);
+}
+
+.applyloan {
+    
+    padding-right: 398px;
+    text-align: center;
+    size: 50px;
+    
+    
+}
+
+.applyloan input{
+    margin-top: 30px;;
+    padding: 10px;
+    border-radius: 5px;
+    /* font-size: medium; */
+}
+.apply {
+    margin-top: -467px;
+    text-align: center;
+    padding-left: 525px;
+    size: 50px;
+}
+
+.apply input{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    /* font-size: medium; */
+}
+.applyloan input :hover{
+    background-color: #6c8297;
+    border-style: hidden;
+    
+    
+}
+
+/* #next{
+    text-align:end;
+    padding: 20px;
+} */
+
+.footer{
+    text-align: center;
+}
+
+.footer button{
+    padding :7px;
+    margin-top : 50px;
+    margin-left: 10px;
+    border-radius:5px;
+}
+
+.progressbar {
+    width: 200px;
+    height: 13px;
+    background-color: white;
+    margin-left: 10px;
+    
+  }
+  
+  .progressbar div {
+    width: 50%;
+    height: 100%;
+    background-color:hsl(187deg 55% 61%);
+  }
+
+  .Documents {
+      text-align: center;
+  }
+
+  .Documents input{
+      margin-top: 25px;
+       
+  }
+
+  /* .Documents button{
+    margin-top: 25px;
+    
+} */
+
+.submit {
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 150px 245px;
+    padding: 10px;
+}
+
+.form span{
+    color: #dfdede;
+}
+
+.uploaddocuments{
+    margin-left: 382px;
+    margin-top: 70px; 
+    width: 40%;
+    padding-right: 0px;
+    text-align: center;
+    /* size: 50px; */
+    display: flex;
+justify-content:center;
+flex-direction: column;
+}
+.uploaddocuments input{
+    margin-top: 30px;;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.apply label{
+    margin-right: 10px;
+    font-size: large;
+}
+
+.applyloan label{
+    margin-right:10px;
+    font-size: large;
+}
+
+.form span{
+    font-size:large;
+    margin-right: -198px;
+    color:#ff9999;
+}
+
+.FileItem li{
+    list-style: none;
+    margin: 1.2em 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: fit-content;
+    height: 25px;
+    /* padding: 1.2em 1.5em; */
+    display: flex;
+    align-items: center;
+     
+   
+}
+
+.FileItem svg{
+        color: rgba(26, 24, 24, 0.914);
+        margin:10px
+    }
+.FileItem p{
+    margin: 5px;
+}

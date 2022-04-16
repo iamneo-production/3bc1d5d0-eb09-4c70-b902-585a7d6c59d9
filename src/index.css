@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background: #2b323c;
+  color: white;
+   margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

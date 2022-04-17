@@ -1,0 +1,88 @@
+.card-horizontal {
+    /* margin-left: 200px; */
+    border:1px solid white;
+    width: 80vw;
+    align-items: center;
+    margin:0px auto;
+    /* padding-bottom: 10px; */
+    /* flex: 1 1 auto; */
+    /* display: flex; */
+    /* flex: 2 2 auto; */
+    /* justify-content: space-evenly; */
+} 
+
+
+
+.lol {
+    font-size: 20px;
+    align-content:stretch;
+    border-radius: 15px;
+    margin-top: 30px;
+    border: 0px solid Black;
+    padding: 35px 15px 15px 45px;
+    background-color: rgb(212, 209, 209);
+}
+
+.cardText1 {
+    text-align: center;
+    color: #f1f1f1;
+    background-color: rgb(157, 156, 156); ;
+    border-radius: 3px;
+}
+
+.btn {
+    margin-right: 10px;
+    float: right;
+}
+
+body.active-modall {
+    overflow-y: hidden;
+}
+
+/* .btn-modall {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0; 
+    font-size: 18px;
+} */
+
+.modall, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modall-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+
+.input-group {
+    padding-top: 20px;
+    width: 80vw;
+    margin: 0px auto;
+}
+
+
+/* .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+} */
